@@ -119,63 +119,6 @@ return newArr;
 }
 
 // BONUS - Iteration 8: Best yearly score average - Best yearly score average
-const movies = [
-    {
-      title: 'The Shawshank Redemption',
-      year: 2000,
-      director: 'Frank Darabont',
-      duration: '2h 22min',
-      genre: ['Crime', 'Drama'],
-      score: 9.5
-    },
-    {
-      title: 'The Godfather',
-      year: 2000,
-      director: 'Francis Ford Coppola',
-      duration: '2h 55min',
-      genre: ['Crime', 'Drama'],
-      score: 9.2
-    },
-    {
-      title: 'The Godfather: Part II',
-      year: 1974,
-      director: 'Francis Ford Coppola',
-      duration: '3h 22min',
-      genre: ['Crime', 'Drama'],
-      score: 9.4
-    },
-    {
-      title: 'The Dark Knight',
-      year: 1979,
-      director: 'Christopher Nolan',
-      duration: '2h 32min',
-      genre: ['Action', 'Crime', 'Drama', 'Thriller'],
-      score: 9.4
-    },
-    {
-        title: 'The Shawshank Redemption',
-        year: 2000,
-        director: 'Frank Darabont',
-        duration: '2h 22min',
-        genre: ['Crime', 'Drama'],
-        score: 9.5
-      },
-      {
-        title: 'The Godfather',
-        year: 1972,
-        director: 'Francis Ford Coppola',
-        duration: '2h 55min',
-        genre: ['Crime', 'Drama'],
-        score: 9.2
-      },
-      {
-        title: 'The Godfather: Part II',
-        year: 1979,
-        director: 'Francis Ford Coppola',
-        duration: '3h 22min',
-        genre: ['Crime', 'Drama'],
-        score: 9.4
-      }]
 function bestYearAvg(moviesArray) {
     if (moviesArray.length === 0) {
         return null;
@@ -220,5 +163,4 @@ for (let i = 0; i < simpArray.length; i++) {
 
 return console.log(finalArr)
 }
-bestYearAvg(movies);
 
